@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|c:\\users\\usuario\\source\\repos\\nisflis\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|c:\\users\\usuario\\source\\repos\\nisflis\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|c:\\users\\usuario\\source\\repos\\nisflis\\view\\uirating.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|solutionrelative:view\\uirating.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|c:\\users\\usuario\\source\\repos\\nisflis\\view\\uirating.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|solutionrelative:view\\uirating.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|c:\\users\\usuario\\source\\repos\\nisflis\\view\\uiposter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|solutionrelative:view\\uiposter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|c:\\users\\usuario\\source\\repos\\nisflis\\model\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|solutionrelative:model\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|c:\\users\\usuario\\source\\repos\\nisflis\\model\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|solutionrelative:model\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|c:\\users\\usuario\\source\\repos\\nisflis\\view\\uiposter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F21A709B-8941-47C8-9CCA-17277F59AD15}|Nisflis.csproj|solutionrelative:view\\uiposter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:468822040:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1782758433:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:927045476:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1248672248:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIRating.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\View\\UIRating.xaml.cs",
+              "RelativeDocumentMoniker": "View\\UIRating.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\View\\UIRating.xaml.cs",
+              "RelativeToolTip": "View\\UIRating.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAMwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:21:38.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIRating.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\View\\UIRating.xaml",
+              "RelativeDocumentMoniker": "View\\UIRating.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\View\\UIRating.xaml",
+              "RelativeToolTip": "View\\UIRating.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T08:21:35.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA8wCwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:14:03.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T08:06:51.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\Model\\Movie.cs",
+              "RelativeDocumentMoniker": "Model\\Movie.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\Model\\Movie.cs",
+              "RelativeToolTip": "Model\\Movie.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:01:15.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIPoster.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\View\\UIPoster.xaml.cs",
+              "RelativeDocumentMoniker": "View\\UIPoster.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\View\\UIPoster.xaml.cs",
+              "RelativeToolTip": "View\\UIPoster.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAMwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:04:04.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UIPoster.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\View\\UIPoster.xaml",
+              "RelativeDocumentMoniker": "View\\UIPoster.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\View\\UIPoster.xaml",
+              "RelativeToolTip": "View\\UIPoster.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T08:03:38.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\Model\\Library.cs",
+              "RelativeDocumentMoniker": "Model\\Library.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Nisflis\\Model\\Library.cs",
+              "RelativeToolTip": "Model\\Library.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:00:22.859Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

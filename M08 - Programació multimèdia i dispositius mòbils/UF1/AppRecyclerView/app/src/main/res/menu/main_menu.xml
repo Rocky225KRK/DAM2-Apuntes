@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuDelete"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Eliminar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mnuEdit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Editar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mnuUp"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="Pujar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mnuDown"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Baixar"
+        app:showAsAction="always"
+        />
+</menu>

@@ -1,0 +1,240 @@
+﻿<Page
+    x:Class="InventoryManagerV2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InventoryManagerV2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:view="using:InventoryManagerV2.View"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx://InventoryManager/Assets/background.png"/>
+        </Grid.Background>
+
+        <Grid Grid.Row="0" RowSpacing="15" ColumnSpacing="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Text="Items" FontSize="40"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" Text="Recipes" FontSize="40"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" Text="Ingredients" FontSize="40"/>
+
+            <!--Items listView-->
+            <Grid Grid.Row="1" Grid.Column="0" MaxWidth="400" Background="DarkSlateBlue" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <ListView x:Name="lsvItems" ItemClick="lsv_ItemClick" IsItemClickEnabled="True" Grid.Column="0" SelectionChanged="lsvItems_SelectionChanged">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <view:UIItem MyItem="{Binding}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Button x:Name="btnDeleteItem" Click="btnDeleteItem_Click" Grid.Column="1" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                            HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom"
+                            FontFamily="Segoe MDL2 Assets">&#xE738;</Button>
+            </Grid>
+
+            <!--Recipes listView-->
+            <Grid Grid.Row="1" Grid.Column="1" MaxWidth="400" Background="DarkSlateBlue" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <ListView x:Name="lsvRecipes" ItemClick="lsv_ItemClick" IsItemClickEnabled="True" Grid.Column="0" SelectionChanged="lsvRecipes_SelectionChanged">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <view:UIRecipe MyRecipe="{Binding}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Button x:Name="btnDeleteRecipe" Click="btnDeleteRecipe_Click" Grid.Column="1" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                            HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom"
+                            FontFamily="Segoe MDL2 Assets">&#xE738;</Button>
+            </Grid>
+
+            <!--Ingredients listView-->
+            <Grid Grid.Row="1" Grid.Column="2" MaxWidth="400" Background="DarkSlateBlue" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <ListView x:Name="lsvIngredients" ItemClick="lsv_ItemClick" IsItemClickEnabled="True" SelectionChanged="lsvIngredients_SelectionChanged" Grid.Column="0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <view:UIIngredients MyIngredient="{Binding}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Button x:Name="btnDeleteIngredient" Click="btnDeleteIngredient_Click" Grid.Column="1" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                            HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom"
+                            FontFamily="Segoe MDL2 Assets">&#xE738;</Button>
+            </Grid>
+
+            <!--Edit/New item-->
+            <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Vertical" MaxWidth="400" Background="DarkSlateBlue" Padding="20">
+                <TextBlock Text="Edit/New item" FontWeight="Bold"/>
+
+                <Grid RowSpacing="10" Padding="0 20 0 20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Name" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+                    <TextBlock Text="Image URL" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+
+                    <TextBox x:Name="txbItemName" Grid.Row="0" Grid.Column="1"/>
+                    <TextBox x:Name="txbItemURL" Grid.Row="1" Grid.Column="1"/>
+                </Grid>
+
+                <TextBlock Text="Description"/>
+                <TextBox x:Name="txbItemDesc" Height="50" TextWrapping="Wrap"/>
+
+                <Grid Padding="0 20 0 10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="btnAddItem" Click="btnAddItem_Click" Grid.Column="0" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    FontFamily="Segoe MDL2 Assets">&#xE710;</Button>
+
+                    <Button x:Name="btnSaveItem" Click="btnSaveItem_Click" Grid.Column="1" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right"
+                    FontFamily="Segoe MDL2 Assets">&#xE74E;</Button>
+                </Grid>
+            </StackPanel>
+
+            <!--Add recipe-->
+            <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Vertical" MaxWidth="400" Background="DarkSlateBlue" Padding="20" VerticalAlignment="Top">
+                <TextBlock Text="Add recipe" FontWeight="Bold"/>
+
+                <Grid RowSpacing="10" Padding="0 20 0 20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Name" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+
+                    <TextBox x:Name="txbRecipeName" Grid.Row="0" Grid.Column="1"/>
+                </Grid>
+
+                <Button x:Name="btnAddRecipe" Click="btnAddRecipe_Click" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right"
+                    FontFamily="Segoe MDL2 Assets">&#xE710;</Button>
+            </StackPanel>
+
+            <!--Add item (Ingredients)-->
+            <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Vertical" MaxWidth="400" Background="DarkSlateBlue" Padding="20" VerticalAlignment="Top">
+                <TextBlock Text="Add item" Padding="0 0 0 20" FontWeight="Bold"/>
+
+                <ComboBox x:Name="cboRecipeItem" HorizontalAlignment="Stretch"/>
+
+                <Grid RowSpacing="10" Padding="0 20 0 20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Quantity" Grid.Column="0" VerticalAlignment="Center"/>
+
+                    <ComboBox x:Name="cboRecipeQty" Grid.Column="1" HorizontalAlignment="Center"/>
+                </Grid>
+
+                <Button x:Name="btnAddIngredients" Click="btnAddIngredients_Click" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right"
+                    FontFamily="Segoe MDL2 Assets">&#xE710;</Button>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1" Background="DarkSlateBlue" Padding="20" Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0" x:Name="gridInventory" RowSpacing="10" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+            <Grid Grid.Column="1" Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" x:Name="btnDeleteInventoryItem" Click="btnDeleteInventoryItem_Click" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                        HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"
+                        FontFamily="Segoe MDL2 Assets">&#xE738;</Button>
+                <ComboBox Grid.Row="1" x:Name="cboRecipeSelect" SelectionChanged="cboRecipeSelect_SelectionChanged" HorizontalAlignment="Stretch"/>
+                <Button Grid.Row="2" x:Name="btnCombinarInventory" Click="btnCombinarInventory_Click" Background="DarkBlue" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Bottom">Combinar</Button>
+            </Grid>
+            
+            <StackPanel Grid.Column="2">
+                <TextBlock Text="Add item" Padding="0 0 0 20"/>
+
+                <ComboBox x:Name="cboInventoryItem" HorizontalAlignment="Stretch"/>
+
+                <Grid RowSpacing="10" Padding="0 20 0 20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Quantity" Grid.Column="0" VerticalAlignment="Center"/>
+
+                    <ComboBox x:Name="cboInventoryItemQty" Grid.Column="1" HorizontalAlignment="Center"/>
+                </Grid>
+
+                <Button x:Name="btnAddInventoryItem" Click="btnAddInventoryItem_Click" Width="40" Height="40" CornerRadius="20" Background="DarkBlue"
+                        HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right"
+                        FontFamily="Segoe MDL2 Assets">&#xE710;</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

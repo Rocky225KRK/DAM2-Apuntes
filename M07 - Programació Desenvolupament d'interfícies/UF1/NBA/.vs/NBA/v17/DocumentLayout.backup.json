@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\NBA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|c:\\users\\usuario\\source\\repos\\nba\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|C:\\Users\\Usuario\\source\\repos\\NBA\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|C:\\Users\\Usuario\\source\\repos\\NBA\\view\\uiteam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|solutionrelative:view\\uiteam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UIPlayer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|solutionrelative:View\\UIPlayer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UIPlayer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|solutionrelative:View\\UIPlayer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|C:\\Users\\Usuario\\source\\repos\\NBA\\view\\uiteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|solutionrelative:view\\uiteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|C:\\Users\\Usuario\\source\\repos\\NBA\\Model\\Jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|solutionrelative:Model\\Jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|C:\\Users\\Usuario\\source\\repos\\NBA\\Model\\Equip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97107865-AE64-4BCF-86A5-CB9BA006F0DB}|NBA.csproj|solutionrelative:Model\\Equip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:468822040:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1782758433:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:927045476:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1248672248:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\NBA\\Model\\Jugador.cs",
+              "RelativeDocumentMoniker": "Model\\Jugador.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\NBA\\Model\\Jugador.cs",
+              "RelativeToolTip": "Model\\Jugador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T17:15:56.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Equip.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\NBA\\Model\\Equip.cs",
+              "RelativeDocumentMoniker": "Model\\Equip.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\NBA\\Model\\Equip.cs",
+              "RelativeToolTip": "Model\\Equip.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwCcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T17:04:01.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UITeam.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UITeam.xaml.cs",
+              "RelativeDocumentMoniker": "View\\UITeam.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UITeam.xaml.cs",
+              "RelativeToolTip": "View\\UITeam.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:51:08.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UITeam.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UITeam.xaml",
+              "RelativeDocumentMoniker": "View\\UITeam.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UITeam.xaml",
+              "RelativeToolTip": "View\\UITeam.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T15:27:06.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIPlayer.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UIPlayer.xaml",
+              "RelativeDocumentMoniker": "View\\UIPlayer.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UIPlayer.xaml",
+              "RelativeToolTip": "View\\UIPlayer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T07:36:32.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIPlayer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UIPlayer.xaml.cs",
+              "RelativeDocumentMoniker": "View\\UIPlayer.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\NBA\\View\\UIPlayer.xaml.cs",
+              "RelativeToolTip": "View\\UIPlayer.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:36:41.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\NBA\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\NBA\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-14T17:09:54.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\NBA\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\NBA\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:58:21.336Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

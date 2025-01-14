@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\source\\repos\\gestorentrades\\view\\pageevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\pageevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\source\\repos\\gestorentrades\\view\\pageedicioevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\pageedicioevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\source\\repos\\gestorentrades\\view\\datetostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\datetostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:468822040:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1782758433:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:927045476:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1248672248:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageEvents.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\PageEvents.xaml",
+              "RelativeDocumentMoniker": "View\\PageEvents.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\PageEvents.xaml",
+              "RelativeToolTip": "View\\PageEvents.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-14T17:34:19.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageEdicioEvents.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\PageEdicioEvents.xaml",
+              "RelativeDocumentMoniker": "View\\PageEdicioEvents.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\PageEdicioEvents.xaml",
+              "RelativeToolTip": "View\\PageEdicioEvents.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-14T17:34:12.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateToStringConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\DateToStringConverter.cs",
+              "RelativeDocumentMoniker": "View\\DateToStringConverter.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\DateToStringConverter.cs",
+              "RelativeToolTip": "View\\DateToStringConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:31:47.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

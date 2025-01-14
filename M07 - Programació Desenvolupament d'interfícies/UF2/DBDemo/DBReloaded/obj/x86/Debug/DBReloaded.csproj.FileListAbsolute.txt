@@ -1,0 +1,2 @@
+C:\Users\Usuario\source\repos\DBDemo\DBReloaded\obj\x86\Debug\DBReloaded.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\DBDemo\DBReloaded\obj\x86\Debug\DBReloaded.csproj.CoreCompileInputs.cache

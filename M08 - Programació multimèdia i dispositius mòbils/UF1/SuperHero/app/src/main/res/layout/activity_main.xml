@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <GridView
+            android:id="@+id/grdSuperHero"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:numColumns="2">
+
+            <include layout="@layout/card" android:id="@+id/sh1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_row="0" android:layout_column="0"/>
+            <include layout="@layout/card" android:id="@+id/sh2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_row="0" android:layout_column="1"/>
+            <include layout="@layout/card" android:id="@+id/sh3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_row="1" android:layout_column="0"/>
+            <include layout="@layout/card" android:id="@+id/sh4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_row="1" android:layout_column="1"/>
+        </GridView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent">
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

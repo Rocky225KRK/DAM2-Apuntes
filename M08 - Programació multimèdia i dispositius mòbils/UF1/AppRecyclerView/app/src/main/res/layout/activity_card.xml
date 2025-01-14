@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".view.CardActivity"
+    android:columnCount="2"
+    android:rowCount="7"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:id="@+id/imvPhoto"
+        android:layout_columnSpan="2"
+        android:src="@drawable/giant"/>
+
+    <TextView
+        android:text="Name:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"/>
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="3"/>
+
+    <TextView
+        android:text="Desc:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"/>
+    <EditText
+        android:id="@+id/edtDesc"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:lines="5"
+        android:layout_columnWeight="3"/>
+
+    <TextView
+        android:text="Elixir cost:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"/>
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/spnElixirCost"
+        android:layout_columnWeight="3"/>
+
+    <TextView
+        android:text="Rarity:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"/>
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/spnRarity"
+        android:layout_columnWeight="3"/>
+
+    <View
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_rowWeight="3"
+        android:layout_columnWeight="4"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/red"
+        android:layout_columnWeight="3"
+        android:layout_gravity="start"
+        android:text="Cancel"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="3"
+        android:layout_gravity="end"
+        android:text="Save"/>
+</GridLayout>

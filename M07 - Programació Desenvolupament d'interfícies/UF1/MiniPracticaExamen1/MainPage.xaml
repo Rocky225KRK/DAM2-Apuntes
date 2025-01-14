@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="MiniPracticaExamen1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MiniPracticaExamen1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:view="using:MiniPracticaExamen1.View"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded">
+
+    <Grid Background="DarkSlateGray">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Background="LightGreen" Padding="20">
+            <TextBlock Text="Lugar claramente famoso" HorizontalTextAlignment="Center" Foreground="Black" FontSize="20"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <ListView x:Name="lsvMenu" SelectionChanged="lsvMenu_SelectionChanged" Grid.Column="0" Height="200" Width="300">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <view:UIMenu MyMenu="{Binding}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button x:Name="btnDel" Click="btnDel_Click" CornerRadius="40" Background="DarkOrange" Foreground="Black" FontFamily="Segoe MDL2 Assets" Content="&#xE738;" Height="40" Width="40" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+            </Grid>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Comida:" Grid.Row="0" Grid.Column="0" Foreground="Black" VerticalAlignment="Center"/>
+                <ComboBox x:Name="cboComida" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <view:UICboComidas MyComida="{Binding}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+
+                <TextBlock Text="Cantidad:" Grid.Row="1" Grid.Column="0" Foreground="Black" VerticalAlignment="Center"/>
+                <TextBox x:Name="txbQty" TextChanged="txbQty_TextChanged" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch"/>
+                
+                <Button x:Name="btnAdd" Click="btnAdd_Click" Grid.Column="2" Grid.RowSpan="2" CornerRadius="40" Background="DarkOrange" Foreground="Black" FontFamily="Segoe MDL2 Assets" Content="&#xE710;" Height="40" Width="40" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

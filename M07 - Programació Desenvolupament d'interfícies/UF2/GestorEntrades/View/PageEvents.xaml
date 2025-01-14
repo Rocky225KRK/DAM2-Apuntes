@@ -1,0 +1,84 @@
+﻿<Page
+    x:Class="GestorEntrades.PageEvents"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GestorEntrades"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:wctprimitives="using:Microsoft.Toolkit.Uwp.UI.Controls.Primitives" xmlns:view="using:GestorEntrades.View"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded"
+    x:Name="page">
+
+    <Page.Resources>
+        <view:DateToStringConverter x:Key="dateToStringConverter"/>
+    </Page.Resources>
+
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Llista d'Events" Grid.Row="0" FontSize="100" HorizontalAlignment="Center"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <controls:DataGrid x:Name="dgrEvents" ItemsSource="{Binding ElementName=page, Path=Events}" 
+                   AutoGenerateColumns="False" GridLinesVisibility="All" Margin="20">
+                <controls:DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="wctprimitives:DataGridColumnHeader">
+                        <Setter Property="FontWeight">
+                            <Setter.Value>Bold</Setter.Value>
+                        </Setter>
+                        <Setter Property="FontSize">
+                            <Setter.Value>20</Setter.Value>
+                        </Setter>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="wctprimitives:DataGridColumnHeader">
+                                    <ContentPresenter Background="DarkSlateGray"/>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </controls:DataGrid.ColumnHeaderStyle>
+
+                <controls:DataGrid.Columns>
+                    <controls:DataGridTextColumn Binding="{Binding Id}" Header="ID" Width="1*"/>
+                    <controls:DataGridTemplateColumn Header="IMATGE" Width="3*">
+                        <controls:DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Width="100" Source="{Binding ImatgePath}"/>
+                            </DataTemplate>
+                        </controls:DataGridTemplateColumn.CellTemplate>
+                    </controls:DataGridTemplateColumn>
+                    <controls:DataGridTextColumn Binding="{Binding Data,Converter={StaticResource dateToStringConverter}}" Header="DATA" Width="3*"/>
+                    <controls:DataGridTextColumn Binding="{Binding Nom}" Header="NOM" Width="3*"/>
+                    <controls:DataGridTextColumn Binding="{Binding Protagonista}" Header="PROTAGONISTA" Width="3*"/>
+                    <controls:DataGridTextColumn Binding="{Binding Sala.Nom}" Header="SALA" Width="3*"/>
+                </controls:DataGrid.Columns>
+            </controls:DataGrid>
+
+            <Grid Grid.Column="1" Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button x:Name="btnAfegir" Click="btnAfegir_Click" Content="&#xE710;" Grid.Row="0" Width="60" Height="60" CornerRadius="40" FontSize="30"
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top"
+            FontFamily="Segoe MDL2 Assets"/>
+                <Button x:Name="btnEsborrar" Click="btnEsborrar_Click" Content="&#xE74D;" Grid.Row="1" Width="60" Height="60" CornerRadius="40" FontSize="30"
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom"
+            FontFamily="Segoe MDL2 Assets"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

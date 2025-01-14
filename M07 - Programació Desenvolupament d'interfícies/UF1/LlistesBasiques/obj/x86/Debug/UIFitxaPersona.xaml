@@ -1,0 +1,35 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="LlistesBasiques.UIFitxaPersona"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LlistesBasiques"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    x:Name="uc">
+
+    <Border Width="400"
+        BorderBrush="DarkGray"
+        BorderThickness="2"
+        Background="DimGray"
+        Padding="10">
+        <Grid ColumnSpacing="15" RowSpacing="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock VerticalAlignment="Center" FontSize="25" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Text="{Binding ElementName=uc,Path=LaPersona.Id}"></TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding ElementName=uc,Path=LaPersona.Name}"></TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ElementName=uc,Path=LaPersona.Age}"></TextBlock>
+
+        </Grid>
+    </Border>
+</UserControl>
+

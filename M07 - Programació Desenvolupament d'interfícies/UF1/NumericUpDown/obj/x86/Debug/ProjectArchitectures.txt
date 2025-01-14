@@ -1,0 +1,1 @@
+C:\Users\Usuario\source\repos\NumericUpDown\NumericUpDown.csproj;x86

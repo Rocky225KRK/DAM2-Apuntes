@@ -1,0 +1,47 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="FormularioPrueba.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FormularioPrueba"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                           Height="200" Width="666">
+
+    <Grid ColumnSpacing="10" RowSpacing="10" HorizontalAlignment="Left" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock VerticalAlignment="Center" FontWeight="Bold">Alçada:</TextBlock>
+        <TextBox x:ConnectionId='2'                                     x:Name="txbAlcada" Grid.Column="1"                                          ></TextBox>
+        <TextBlock x:ConnectionId='3' x:Name="txtAlcadaIcon" VerticalAlignment="Center" Grid.Column="2" FontFamily="Segoe MDL2 Assets" Foreground="Green">&#xE711;&#xE8FB;</TextBlock>
+        <TextBlock x:ConnectionId='4' x:Name="txtAlcadaErrMsg" VerticalAlignment="Center" Grid.Column="3">Alçada errònia</TextBlock>
+
+        <TextBlock VerticalAlignment="Center" Grid.Row="1" FontWeight="Bold">Data de naixement:</TextBlock>
+        <TextBox x:ConnectionId='5'                                   x:Name="txbDataNaix" PlaceholderText="dd/mm/yyyy" Grid.Row="1" Grid.Column="1"                                            ></TextBox>
+        <TextBlock x:ConnectionId='6' x:Name="txtDataNaixIcon" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" FontFamily="Segoe MDL2 Assets" Foreground="Green">&#xE711;&#xE8FB;</TextBlock>
+        <TextBlock x:ConnectionId='7' x:Name="txtDataNaixErrMsg" VerticalAlignment="Center" Grid.Row="1" Grid.Column="3">Data errònia</TextBlock>
+
+        <Grid Grid.Row="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ComboBox x:ConnectionId='8' x:Name="cboDia"></ComboBox>
+            <ComboBox x:ConnectionId='9' x:Name="cboMes" Grid.Column="1"></ComboBox>
+            <ComboBox x:ConnectionId='10' x:Name="cboAny" Grid.Column="2"></ComboBox>
+        </Grid>
+    </Grid>
+</Page>
+

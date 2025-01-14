@@ -1,0 +1,93 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Examen.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Examen"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:view="using:Examen.View"
+    mc:Ignorable="d"
+    Background="FloralWhite"
+                        >
+
+    <Grid RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Padding="20" BorderBrush="DarkSlateGray" BorderThickness="1" Background="LightGray">
+            <ComboBox x:ConnectionId='8' x:Name="cboFilter"                                               HorizontalAlignment="Center" HorizontalContentAlignment="Stretch" Foreground="Black">
+                <ComboBoxItem Content="Filter per age"/>
+                <ComboBoxItem Content="18-19"/>
+                <ComboBoxItem Content="20-29"/>
+                <ComboBoxItem Content="30-39"/>
+                <ComboBoxItem Content="40-49"/>
+                <ComboBoxItem Content="50-59"/>
+            </ComboBox>
+            <GridView x:ConnectionId='9' x:Name="grvPeople" Height="400"                                               Padding="0 10 0 0">
+                <GridView.ItemContainerStyle>
+                    <Style TargetType="GridViewItem">
+                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                        <Setter Property="VerticalAlignment" Value="Stretch"/>
+                    </Style>
+                </GridView.ItemContainerStyle>
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <view:UIPerson MyPerson="{Binding}"/>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </StackPanel>
+
+        <Grid Grid.Row="0" Grid.Column="1" Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Button x:ConnectionId='6' x:Name="btnMakeCouple" Grid.Row="0"                             VerticalAlignment="Top" HorizontalAlignment="Stretch" BorderBrush="DarkSlateGray" BorderThickness="1" Background="LightGray">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="&#xE716;" FontFamily="Segoe MDL2 Assets" HorizontalAlignment="Center" FontSize="40" Foreground="Black"/>
+                    <TextBlock Text="Make Couple" Foreground="Black"/>
+                </StackPanel>
+            </Button>
+            <Button x:ConnectionId='7' x:Name="btnSeparateCouple" Grid.Row="1"                                 VerticalAlignment="Bottom" HorizontalAlignment="Stretch" BorderBrush="DarkSlateGray" BorderThickness="1" Background="LightGray">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="&#59616;" FontFamily="Segoe MDL2 Assets" HorizontalAlignment="Center" FontSize="40" Foreground="Black"/>
+                    <TextBlock Text="Separate Couple" Foreground="Black"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+
+        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical" Padding="20" BorderBrush="DarkSlateGray" BorderThickness="1" Background="LightGray">
+            <TextBlock Text="Select a couple:" FontWeight="Bold" HorizontalAlignment="Center" FontSize="40" Foreground="Black"/>
+            <GridView x:ConnectionId='4' x:Name="grvMatches"                                                Height="400" Padding="0 10 0 0">
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <view:UIPerson MyPerson="{Binding}"/>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </StackPanel>
+
+        <GridView x:ConnectionId='2' x:Name="grvCouples"                                                Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Padding="20" BorderBrush="DarkSlateGray" BorderThickness="1" Background="Gray">
+            <GridView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                </Style>
+            </GridView.ItemContainerStyle>
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <view:UIPair MyPair="{Binding}"/>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+</Page>
+

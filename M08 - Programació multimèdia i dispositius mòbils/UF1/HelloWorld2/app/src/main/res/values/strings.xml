@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="nom">Nom:</string>
+    <string name="nom_hint">Nom</string>
+    <string name="cog">Cog.:</string>
+    <string name="cog_hint">Cognoms</string>
+    <string name="nif">NIF:</string>
+    <string name="nif_hint">NIF</string>
+    <string name="sexe">Sexe:</string>
+    <string name="home">Home</string>
+    <string name="dona">Dona</string>
+    <string name="altres">Altres</string>
+</resources>
