@@ -20,10 +20,10 @@ namespace MVVM.Model
             if(_persones==null)
             {
                 _persones = new ObservableCollection<Persona>();
-                _persones.Add(new Persona("Paco", SexeEnum.HOME, true, "https://ep01.epimg.net/elpais/imagenes/2018/03/07/icon/1520445498_019512_1520445571_noticia_normal.jpg", 21));
-                _persones.Add(new Persona("Paquita", SexeEnum.DONA, true, "https://thumbs.dreamstime.com/b/happy-person-portrait-smiling-woman-tanned-skin-curly-hair-happy-person-portrait-smiling-young-friendly-woman-197501184.jpg", 21));
-                _persones.Add(new Persona("Paul", SexeEnum.HOME, true, "https://www.incimages.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg", 21));
-                _persones.Add(new Persona("Sarah", SexeEnum.DONA, true, "https://www.bkacontent.com/wp-content/uploads/2020/10/Depositphotos_336730000_l-2015.jpg", 21));
+                _persones.Add(new Persona(1, "Paco", SexeEnum.HOME, true, "https://ep01.epimg.net/elpais/imagenes/2018/03/07/icon/1520445498_019512_1520445571_noticia_normal.jpg", 21));
+                _persones.Add(new Persona(2, "Paquita", SexeEnum.DONA, true, "https://thumbs.dreamstime.com/b/happy-person-portrait-smiling-woman-tanned-skin-curly-hair-happy-person-portrait-smiling-young-friendly-woman-197501184.jpg", 21));
+                _persones.Add(new Persona(3, "Paul", SexeEnum.HOME, true, "https://www.incimages.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg", 21));
+                _persones.Add(new Persona(4, "Sarah", SexeEnum.DONA, true, "https://www.bkacontent.com/wp-content/uploads/2020/10/Depositphotos_336730000_l-2015.jpg", 21));
                 
             }
             return _persones;
@@ -39,8 +39,9 @@ namespace MVVM.Model
 
   
 
-        public Persona(string nom, SexeEnum sexe, bool actiu, string imageURL, int edat)
+        public Persona(int id, string nom, SexeEnum sexe, bool actiu, string imageURL, int edat)
         {
+            Id = id;
             Nom = nom;
             Sexe = sexe;
             Actiu = actiu;
@@ -81,6 +82,9 @@ namespace MVVM.Model
 
             }
         }
-        
+
+        public int Id { get;set; }
+
+
     }
 }

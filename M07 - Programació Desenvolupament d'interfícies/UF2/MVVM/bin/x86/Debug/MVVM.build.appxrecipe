@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e6b37942-bd06-44b5-b2d3-96ca71900955</PackageIdentityName>
     <PackageIdentityPublisher>CN=Usuario</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\source\repos\MVVM\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\MVVM.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\MVVM.exe">
       <PackagePath>entrypoint\MVVM.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
@@ -40,58 +40,58 @@
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\FodyWeavers.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\FodyWeavers.xml">
       <PackagePath>FodyWeavers.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\MVVM.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\MVVM.xr.xml">
       <PackagePath>MVVM.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\View\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\View\UCEditPersona.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\View\UCEditPersona.xbf">
       <PackagePath>View\UCEditPersona.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\MVVM\bin\x86\Debug\Core\MVVM.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\Core\MVVM.exe">
       <PackagePath>MVVM.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mTMJrtkesQM=",
+  "dgSpecHash": "5vOy7QVVA38=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\MVVM\\MVVM.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\MVVM\\MVVM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",

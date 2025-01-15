@@ -6,8 +6,11 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="PersonaSeleccionada" />
     <RootPropertyPathName Name="Persones" />
-    <RootPropertyPathName Name="MyPersona" />
+    <RootPropertyPathName Name="PersonaEnEdicio" />
+    <RootPropertyPathName Name="EsValida" />
     <RootPropertyPathName Name="Sexe" />
+    <RootPropertyPathName Name="EdatError" />
+    <RootPropertyPathName Name="EdatBackground" />
     <RootPropertyPathName Name="Edat" />
     <RootPropertyPathName Name="ImageURL" />
     <RootPropertyPathName Name="IsActiu" />
@@ -62,9 +65,12 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Text" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Text" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="SelectedItem" />
@@ -79,6 +85,11 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
       <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsEnabled" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="IsChecked" />

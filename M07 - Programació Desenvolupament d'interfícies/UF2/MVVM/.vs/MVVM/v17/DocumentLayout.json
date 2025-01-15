@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\viewmodel\\personaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:viewmodel\\personaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\mvvm\\view\\uceditpersona.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:view\\uceditpersona.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\view\\uceditpersona.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:view\\uceditpersona.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\model\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:model\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -15,28 +31,8 @@
       "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:view\\transformers\\sexe2radiotransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\view\\uceditpersona.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:view\\uceditpersona.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\viewmodel\\personaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:viewmodel\\personaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\viewmodel\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:viewmodel\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\model\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|solutionrelative:model\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6425139D-ACE9-4499-99F6-3195026A60CF}|MVVM.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\model\\sexeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -104,13 +100,14 @@
               "RelativeDocumentMoniker": "View\\UCEditPersona.xaml.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\View\\UCEditPersona.xaml.cs",
               "RelativeToolTip": "View\\UCEditPersona.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAA0wDYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T16:51:25.213Z"
+              "WhenOpened": "2025-01-09T16:51:25.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UCEditPersona.xaml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\View\\UCEditPersona.xaml",
               "RelativeDocumentMoniker": "View\\UCEditPersona.xaml",
@@ -122,43 +119,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\ViewModel\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\BaseViewModel.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\ViewModel\\BaseViewModel.cs",
               "RelativeToolTip": "ViewModel\\BaseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T16:40:00.024Z"
+              "WhenOpened": "2025-01-09T16:40:00.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "PersonaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\ViewModel\\PersonaViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\PersonaViewModel.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\ViewModel\\PersonaViewModel.cs",
               "RelativeToolTip": "ViewModel\\PersonaViewModel.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAqwEcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T16:16:04.029Z"
+              "WhenOpened": "2025-01-09T16:16:04.029Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\ViewModel\\MainPageViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\MainPageViewModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\ViewModel\\MainPageViewModel.cs",
-              "RelativeToolTip": "ViewModel\\MainPageViewModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T20:14:41.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\View\\MainPage.xaml",
               "RelativeDocumentMoniker": "View\\MainPage.xaml",
@@ -169,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\View\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "View\\MainPage.xaml.cs",
@@ -181,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Sexe2RadioTransform.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\View\\transformers\\Sexe2RadioTransform.cs",
               "RelativeDocumentMoniker": "View\\transformers\\Sexe2RadioTransform.cs",
@@ -193,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "SexeEnum.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\Model\\SexeEnum.cs",
               "RelativeDocumentMoniker": "Model\\SexeEnum.cs",
@@ -205,13 +192,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\Model\\Persona.cs",
               "RelativeDocumentMoniker": "Model\\Persona.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\MVVM\\Model\\Persona.cs",
               "RelativeToolTip": "Model\\Persona.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwCsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T20:00:59.259Z"
             }

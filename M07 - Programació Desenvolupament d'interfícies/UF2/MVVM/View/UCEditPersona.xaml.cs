@@ -2,6 +2,7 @@
 using MVVM.ViewModel;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -19,14 +20,14 @@ using Windows.UI.Xaml.Navigation;
 
 namespace MVVM.View
 {
-    public sealed partial class UCEditPersona : UserControl
+    public sealed partial class UCEditPersona : UserControl,INotifyPropertyChanged
     {
+        public PersonaViewModel PersonaEnEdicio { get; private set; }
+
         public UCEditPersona()
         {
             this.InitializeComponent();
         }
-
-        private PersonaViewModel personaOriginal;
 
         public PersonaViewModel MyPersona
         {
@@ -38,6 +39,8 @@ namespace MVVM.View
         public static readonly DependencyProperty MyPersonaProperty =
             DependencyProperty.Register("MyPersona", typeof(PersonaViewModel), typeof(UCEditPersona), new PropertyMetadata(null,OnPersonaChangedCallbackStatic));
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
         private static void OnPersonaChangedCallbackStatic(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             UCEditPersona u = (UCEditPersona)d;
@@ -46,11 +49,18 @@ namespace MVVM.View
 
         private void OnPersonaChangedCallback(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            personaOriginal = e.NewValue as PersonaViewModel;
-            if (MyPersona != personaOriginal)
+            if(PersonaEnEdicio== null||MyPersona.Id!=PersonaEnEdicio.Id)
             {
-                MyPersona = new PersonaViewModel(personaOriginal);
+                PersonaEnEdicio=new PersonaViewModel(MyPersona);
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MyPersona.Nom = PersonaEnEdicio.Nom;
+            MyPersona.Edat = PersonaEnEdicio.Edat;
+            MyPersona.IsActiu = PersonaEnEdicio.IsActiu;
+            MyPersona.Sexe = PersonaEnEdicio.Sexe;
         }
     }
 }
