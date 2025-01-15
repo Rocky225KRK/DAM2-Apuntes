@@ -2,7 +2,7 @@
 Este repositorio contiene los proyectos hechos por mi persona de M07 y M08.</br>
 > Muy (muy muy muy muy muy muy muy muy muy) probablemente no voy a hacer de ninguna asignatura más.</br>
 </br>
-En el caso de que falte algo, no lo tengo hecho.
+<p>En el caso de que falte algo, no lo tengo hecho.
 </br>
 </br>
 </br>
