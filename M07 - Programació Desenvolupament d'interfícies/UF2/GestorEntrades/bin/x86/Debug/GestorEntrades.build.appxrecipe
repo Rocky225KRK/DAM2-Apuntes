@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6300de9c-085d-4169-ada4-d928b1534ec3</PackageIdentityName>
     <PackageIdentityPublisher>CN=Usuario</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\source\repos\GestorEntrades\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\GestorEntrades.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\GestorEntrades.exe">
       <PackagePath>entrypoint\GestorEntrades.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
@@ -40,67 +40,67 @@
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Assets\photos\placeholder.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Assets\photos\placeholder.png">
       <PackagePath>Assets\photos\placeholder.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\GestorEntrades.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\GestorEntrades.xr.xml">
       <PackagePath>GestorEntrades.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\View\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\View\PageEdicioEvents.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\PageEdicioEvents.xbf">
       <PackagePath>View\PageEdicioEvents.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\View\PageEdicioSales.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\PageEdicioSales.xbf">
       <PackagePath>View\PageEdicioSales.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\View\PageEvents.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\PageEvents.xbf">
       <PackagePath>View\PageEvents.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\View\PageSales.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\PageSales.xbf">
       <PackagePath>View\PageSales.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\GestorEntrades\bin\x86\Debug\Core\GestorEntrades.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\Core\GestorEntrades.exe">
       <PackagePath>GestorEntrades.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

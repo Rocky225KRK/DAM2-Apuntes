@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|c:\\users\\usuario\\source\\repos\\datagrid\\model\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|solutionrelative:model\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|C:\\Users\\Usuario\\source\\repos\\DataGrid\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|c:\\users\\usuario\\source\\repos\\datagrid\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\datagrid\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|C:\\Users\\Usuario\\source\\repos\\DataGrid\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\model\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|solutionrelative:model\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08A0BF1D-9A17-48D8-A2A7-5EA98C17F8EB}|DataGrid.csproj|solutionrelative:model\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,24 +74,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Hero.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\Model\\Hero.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\Model\\Hero.cs",
               "RelativeDocumentMoniker": "Model\\Hero.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\Model\\Hero.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\Model\\Hero.cs",
               "RelativeToolTip": "Model\\Hero.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:07:09.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:07:09.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-21T16:25:34.271Z",
@@ -99,24 +98,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAiwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T16:24:12.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T16:24:12.244Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\Model\\Team.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\Model\\Team.cs",
               "RelativeDocumentMoniker": "Model\\Team.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\Model\\Team.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\DataGrid\\Model\\Team.cs",
               "RelativeToolTip": "Model\\Team.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwCwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

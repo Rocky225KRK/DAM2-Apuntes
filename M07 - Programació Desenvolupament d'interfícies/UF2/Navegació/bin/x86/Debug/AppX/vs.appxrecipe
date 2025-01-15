@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>5234ec3c-f614-4181-9afc-58464f2bcff9</PackageIdentityName>
     <PackageIdentityPublisher>CN=Usuario</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\source\repos\Navegació\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C513BFCD3410EEAC02982DAEB53BD9A1F6324A523B34027982DA2E3E4F088CC0</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>22657A2CF7C0AEEB81D6ECEFAA72AAFAD8F12CF37AC37414EEB01A630404DD9F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5234ec3c-f614-4181-9afc-58464f2bcff9_1.0.0.0_x86__xrjxxnkx1r66m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5234ec3c-f614-4181-9afc-58464f2bcff9_xrjxxnkx1r66m!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5234ec3c-f614-4181-9afc-58464f2bcff9</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-28T17:50:23.792</Modified>
+      <Modified>2025-01-15T13:53:20.145</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\Navegació.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\Navegació.exe">
       <PackagePath>entrypoint\Navegació.exe</PackagePath>
-      <Modified>2024-11-28T17:50:23.215</Modified>
+      <Modified>2025-01-15T13:53:18.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,75 +46,75 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2024-02-21T19:52:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2024-11-14T17:39:36.781</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2024-10-31T10:11:56.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\Navegació.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\Navegació.xr.xml">
       <PackagePath>Navegació.xr.xml</PackagePath>
       <Modified>2024-11-14T18:38:14.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-11-28T17:50:23.119</Modified>
+      <Modified>2025-01-15T13:53:18.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-11-28T17:50:23.119</Modified>
+      <Modified>2025-01-15T13:53:18.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\Page2.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\Page2.xbf">
       <PackagePath>Page2.xbf</PackagePath>
-      <Modified>2024-11-28T17:50:23.119</Modified>
+      <Modified>2025-01-15T13:53:18.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\Page3.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\Page3.xbf">
       <PackagePath>Page3.xbf</PackagePath>
-      <Modified>2024-11-28T17:50:23.119</Modified>
+      <Modified>2025-01-15T13:53:18.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2024-02-21T22:46:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-14T18:30:42.192</Modified>
+      <Modified>2025-01-15T13:53:19.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Navegació\bin\x86\Debug\Core\Navegació.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\Navegació\bin\x86\Debug\Core\Navegació.exe">
       <PackagePath>Navegació.exe</PackagePath>
-      <Modified>2024-11-28T17:50:23.784</Modified>
+      <Modified>2025-01-15T13:53:20.142</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

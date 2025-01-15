@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\Navegació\\Navegació.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\Navegació\\Navegació.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\Navegació\\Navegació.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\Navegació\\Navegació.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Navegació\\Navegació.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\Navegació\\Navegació.csproj",
         "projectName": "Navegació",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Navegació\\Navegació.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\Navegació\\Navegació.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Navegació\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\Navegació\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,

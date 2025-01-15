@@ -1,1 +1,1 @@
-C:\Users\Usuario\source\repos\DataGrid\DataGrid.csproj;x86
+C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d'interfícies\UF2\DataGrid\DataGrid.csproj;x86

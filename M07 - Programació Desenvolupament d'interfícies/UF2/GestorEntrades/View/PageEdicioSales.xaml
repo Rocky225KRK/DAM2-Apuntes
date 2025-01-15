@@ -47,29 +47,41 @@
             <TextBox x:Name="txbAdrecaSala" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Top"/>
         </Grid>
         
-        <Grid x:Name="grdZonesSala" Grid.Row="2" Grid.Column="0" RowSpacing="2" ColumnSpacing="2"/>
+        <Grid x:Name="grdZonesSala" Grid.Row="2" Grid.Column="0" RowSpacing="2" ColumnSpacing="2" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Grid Grid.Row="2" Grid.RowSpan="2" Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Button Grid.Row="0" x:Name="btnPaint" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Paint"/>
-            <Button Grid.Row="1" x:Name="btnRemove" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Remove"/>
+            <Button Grid.Row="0" x:Name="btnPaint" Click="btnPaint_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Paint"/>
+            <Button Grid.Row="1" x:Name="btnRemove" Click="btnRemove_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Remove"/>
         </Grid>
+        
 
         <StackPanel Orientation="Vertical" Grid.Row="0" Grid.RowSpan="2" Grid.Column="2" Padding="20" BorderThickness="1" BorderBrush="White">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
                 <TextBlock Text="Zona:" VerticalAlignment="Center"/>
                 <TextBox x:Name="txbZona" VerticalAlignment="Center" Width="150"/>
-                <!--<Viewbox Margin="5" MaxWidth="150" Stretch="Fill">
-                    <ColorPicker x:Name="myColorPicker"
-                         ColorSpectrumShape="Box"
-                         IsColorPreviewVisible="True"
-                         IsColorChannelTextInputVisible="False"
-                         IsHexInputVisible="False"
-                         />
-                </Viewbox>-->
+                <Button x:Name="btnColorSelector" Content="Select Color" Width="150" HorizontalAlignment="Center">
+                    <Button.Flyout>
+                        <Flyout Placement="Bottom">
+                            <Flyout.FlyoutPresenterStyle>
+                                <Style TargetType="FlyoutPresenter">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Padding" Value="20" />
+                                    <Setter Property="CornerRadius" Value="10" />
+                                </Style>
+                            </Flyout.FlyoutPresenterStyle>
+
+                            <StackPanel>
+                                <ColorPicker x:Name="clpZona" IsAlphaEnabled="True" IsColorPreviewVisible="True" IsHexInputVisible="True" IsMoreButtonVisible="False" />
+
+                                <Button Content="Close" HorizontalAlignment="Right" Margin="0,10,0,0" Click="CloseFlyout_Click" />
+                            </StackPanel>
+                        </Flyout>
+                    </Button.Flyout>
+                </Button>
                 <Button x:Name="btnAddZona" Content="Add"/>
             </StackPanel>
             <Grid Margin="10">

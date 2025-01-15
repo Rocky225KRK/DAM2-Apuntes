@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>53e06165-ae96-4c11-b39d-24b2d70fce99</PackageIdentityName>
     <PackageIdentityPublisher>CN=Usuario</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\source\repos\DataGrid\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\source\repos\DataGrid\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1453DD5EE09657805383BABA6C77AF4CF59FDE8F30324D450FA1146276002962</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>3358F69445A5F2E0FE0CB4CCC9AAFB556229CA9476BB313CE4E777579D617A06</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>53e06165-ae96-4c11-b39d-24b2d70fce99_1.0.0.0_x86__xrjxxnkx1r66m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>53e06165-ae96-4c11-b39d-24b2d70fce99_xrjxxnkx1r66m!App</RegisteredUserModeAppID>
     <RegisteredPackageID>53e06165-ae96-4c11-b39d-24b2d70fce99</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\source\repos\DataGrid\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-05T11:01:58.849</Modified>
+      <Modified>2025-01-15T13:49:32.706</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\bin\x86\Debug\DataGrid.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\bin\x86\Debug\DataGrid.exe">
       <PackagePath>entrypoint\DataGrid.exe</PackagePath>
-      <Modified>2024-12-05T11:01:56.246</Modified>
+      <Modified>2025-01-15T13:49:30.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
@@ -54,127 +54,127 @@
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
       <Modified>2020-08-12T22:03:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\avengers.jpg">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\avengers.jpg">
       <PackagePath>Assets\images\avengers.jpg</PackagePath>
       <Modified>2024-11-21T16:14:25.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\back.jpg">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\back.jpg">
       <PackagePath>Assets\images\back.jpg</PackagePath>
       <Modified>2024-11-21T16:14:25.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\everybody.jpg">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\everybody.jpg">
       <PackagePath>Assets\images\everybody.jpg</PackagePath>
       <Modified>2024-11-21T16:14:25.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\x-logo.jpg">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\x-logo.jpg">
       <PackagePath>Assets\images\x-logo.jpg</PackagePath>
       <Modified>2024-11-21T16:14:25.824</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\beast.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\beast.png">
       <PackagePath>Assets\images\beast.png</PackagePath>
       <Modified>2024-11-21T16:14:25.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\blackp.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\blackp.png">
       <PackagePath>Assets\images\blackp.png</PackagePath>
       <Modified>2024-11-21T16:14:25.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\bw.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\bw.png">
       <PackagePath>Assets\images\bw.png</PackagePath>
       <Modified>2024-11-21T16:14:25.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\cap.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\cap.png">
       <PackagePath>Assets\images\cap.png</PackagePath>
       <Modified>2024-11-21T16:14:25.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\coloso.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\coloso.png">
       <PackagePath>Assets\images\coloso.png</PackagePath>
       <Modified>2024-11-21T16:14:25.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\doc.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\doc.png">
       <PackagePath>Assets\images\doc.png</PackagePath>
       <Modified>2024-11-21T16:14:25.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\empty_team.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\empty_team.png">
       <PackagePath>Assets\images\empty_team.png</PackagePath>
       <Modified>2024-11-21T16:14:25.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\ironman.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\ironman.png">
       <PackagePath>Assets\images\ironman.png</PackagePath>
       <Modified>2024-11-21T16:14:25.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\storm.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\storm.png">
       <PackagePath>Assets\images\storm.png</PackagePath>
       <Modified>2024-11-21T16:14:25.708</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\thor.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\thor.png">
       <PackagePath>Assets\images\thor.png</PackagePath>
       <Modified>2024-11-21T16:14:25.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\images\vision.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\images\vision.png">
       <PackagePath>Assets\images\vision.png</PackagePath>
       <Modified>2024-11-21T16:14:25.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2024-10-31T10:11:56.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-10-31T10:11:56.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2024-11-21T16:11:58.796</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\bin\x86\Debug\DataGrid.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\bin\x86\Debug\DataGrid.xr.xml">
       <PackagePath>DataGrid.xr.xml</PackagePath>
       <Modified>2024-11-25T18:17:08.677</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-12-05T11:01:56.118</Modified>
+      <Modified>2025-01-15T13:49:30.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-12-05T11:01:56.118</Modified>
+      <Modified>2025-01-15T13:49:30.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2024-02-21T22:46:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-05T11:01:56.967</Modified>
+      <Modified>2025-01-15T13:49:31.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\DataGrid\bin\x86\Debug\Core\DataGrid.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\DataGrid\bin\x86\Debug\Core\DataGrid.exe">
       <PackagePath>DataGrid.exe</PackagePath>
-      <Modified>2024-12-05T11:01:58.841</Modified>
+      <Modified>2025-01-15T13:49:32.702</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

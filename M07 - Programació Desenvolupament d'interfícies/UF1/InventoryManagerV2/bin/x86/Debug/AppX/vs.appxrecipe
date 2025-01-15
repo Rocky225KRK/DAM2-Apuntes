@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>df0f6437-f02f-4b63-933a-22f1dcd8bf8a</PackageIdentityName>
     <PackageIdentityPublisher>CN=RockyRK</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\source\repos\InventoryManagerV2\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>63AA66543A611E7FBADF67D234E74B16EEEA24C9B190114E34769E116DFC0C38</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>0BECB019C94C3775820CE6512A22472F81F669832B9DA8ED929977B0251DDFBD</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>df0f6437-f02f-4b63-933a-22f1dcd8bf8a_1.0.0.0_x86__hhjzme44b735g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>df0f6437-f02f-4b63-933a-22f1dcd8bf8a_hhjzme44b735g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>df0f6437-f02f-4b63-933a-22f1dcd8bf8a</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-14T14:41:56.923</Modified>
+      <Modified>2025-01-15T14:10:36.401</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\InventoryManagerV2.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\InventoryManagerV2.exe">
       <PackagePath>entrypoint\InventoryManagerV2.exe</PackagePath>
-      <Modified>2024-11-14T14:41:56.039</Modified>
+      <Modified>2025-01-15T14:10:34.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,143 +46,143 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2024-02-21T19:52:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\background.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\background.png">
       <PackagePath>Assets\background.png</PackagePath>
       <Modified>2024-11-02T11:08:32.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\item_border.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\item_border.png">
       <PackagePath>Assets\item_border.png</PackagePath>
       <Modified>2024-11-05T15:14:54.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\baked_potato.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\baked_potato.png">
       <PackagePath>Assets\photos\baked_potato.png</PackagePath>
       <Modified>2024-11-02T10:41:58.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\blaze_powder.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\blaze_powder.png">
       <PackagePath>Assets\photos\blaze_powder.png</PackagePath>
       <Modified>2024-11-02T10:28:53.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\blaze_rod.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\blaze_rod.png">
       <PackagePath>Assets\photos\blaze_rod.png</PackagePath>
       <Modified>2024-11-02T10:28:58.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\chorus_flower.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\chorus_flower.png">
       <PackagePath>Assets\photos\chorus_flower.png</PackagePath>
       <Modified>2024-11-02T10:36:04.064</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\debug.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\debug.png">
       <PackagePath>Assets\photos\debug.png</PackagePath>
       <Modified>2024-11-14T14:41:48.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\diamond.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\diamond.png">
       <PackagePath>Assets\photos\diamond.png</PackagePath>
       <Modified>2024-11-02T10:36:28.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\diamond_block.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\diamond_block.png">
       <PackagePath>Assets\photos\diamond_block.png</PackagePath>
       <Modified>2024-11-02T10:36:12.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\echo_shard.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\echo_shard.png">
       <PackagePath>Assets\photos\echo_shard.png</PackagePath>
       <Modified>2024-11-02T10:36:34.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\enderian_shard.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\enderian_shard.png">
       <PackagePath>Assets\photos\enderian_shard.png</PackagePath>
       <Modified>2024-11-02T10:27:50.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\glowstone.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\glowstone.png">
       <PackagePath>Assets\photos\glowstone.png</PackagePath>
       <Modified>2024-11-02T10:32:45.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\glowstone_dust.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\glowstone_dust.png">
       <PackagePath>Assets\photos\glowstone_dust.png</PackagePath>
       <Modified>2024-11-02T10:28:42.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\hot_potato.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\hot_potato.png">
       <PackagePath>Assets\photos\hot_potato.png</PackagePath>
       <Modified>2024-11-02T10:27:50.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\infernal_powder.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\infernal_powder.png">
       <PackagePath>Assets\photos\infernal_powder.png</PackagePath>
       <Modified>2024-11-02T10:27:50.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\photos\potato.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\photos\potato.png">
       <PackagePath>Assets\photos\potato.png</PackagePath>
       <Modified>2024-11-02T10:42:03.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2024-09-18T07:43:31.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-09-18T07:43:31.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-09-18T07:43:31.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-09-18T07:43:31.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-09-18T07:43:31.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-09-18T07:43:31.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-09-18T07:43:31.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2024-10-20T09:17:45.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\InventoryManagerV2.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\InventoryManagerV2.xr.xml">
       <PackagePath>InventoryManagerV2.xr.xml</PackagePath>
       <Modified>2024-11-14T13:54:44.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-11-14T14:41:55.902</Modified>
+      <Modified>2025-01-15T14:10:34.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-11-14T14:41:55.894</Modified>
+      <Modified>2025-01-15T14:10:34.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\View\UIIngredients.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\View\UIIngredients.xbf">
       <PackagePath>View\UIIngredients.xbf</PackagePath>
-      <Modified>2024-11-14T14:41:55.902</Modified>
+      <Modified>2025-01-15T14:10:34.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\View\UIItem.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\View\UIItem.xbf">
       <PackagePath>View\UIItem.xbf</PackagePath>
-      <Modified>2024-11-14T14:41:55.902</Modified>
+      <Modified>2025-01-15T14:10:34.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\View\UIRecipe.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\View\UIRecipe.xbf">
       <PackagePath>View\UIRecipe.xbf</PackagePath>
-      <Modified>2024-11-14T14:41:55.902</Modified>
+      <Modified>2025-01-15T14:10:34.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2024-02-21T22:46:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-14T14:41:56.311</Modified>
+      <Modified>2025-01-15T14:10:35.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\InventoryManagerV2\bin\x86\Debug\Core\InventoryManagerV2.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF1\InventoryManagerV2\bin\x86\Debug\Core\InventoryManagerV2.exe">
       <PackagePath>InventoryManagerV2.exe</PackagePath>
-      <Modified>2024-11-14T14:41:56.923</Modified>
+      <Modified>2025-01-15T14:10:36.396</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

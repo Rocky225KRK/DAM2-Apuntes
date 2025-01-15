@@ -7,6 +7,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Networking.BackgroundTransfer;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -26,8 +27,12 @@ namespace GestorEntrades
     public sealed partial class PageEdicioSales : Page
     {
         private const int FILES = 20;
-        private const int COLUMNES = 50;
-        private const int CELL_SIZE = 20;
+        private const int COLUMNES = 30;
+        private const int CELL_SIZE = 18;
+
+        private SolidColorBrush cellBrush;
+
+        private bool painting=true;
 
         private Dictionary<Color, Zona> zones = new Dictionary<Color, Zona>();
 
@@ -47,7 +52,9 @@ namespace GestorEntrades
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            gridInit(FILES,COLUMNES);
+            gridInit(FILES, COLUMNES);
+            StackPanel stp = grdZonesSala.Children[0] as StackPanel;
+            cellBrush = stp.Background as SolidColorBrush;
             loadCbo();
         }
 
@@ -57,7 +64,7 @@ namespace GestorEntrades
             List<String> col = new List<String>();
             fila.Add("Files");
             col.Add("Columnes");
-            for (int i = 1; i <= 64; i++)
+            for (int i = 1; i <= 30; i++)
             {
                 fila.Add(i + "");
                 col.Add(i + "");
@@ -70,6 +77,9 @@ namespace GestorEntrades
 
         private void gridInit(int files,int columnes)
         {
+            grdZonesSala.Children.Clear();
+            grdZonesSala.RowDefinitions.Clear();
+            grdZonesSala.ColumnDefinitions.Clear();
             for (int i = 0; i < files; i++)
             {
                 RowDefinition rowDef = new RowDefinition();
@@ -103,23 +113,54 @@ namespace GestorEntrades
             {
                 int x = Grid.GetRow(selected);
                 int y = Grid.GetColumn(selected);
+                Debug.WriteLine("Coords: " + x + ":" + y);
+                if (painting)
+                {
+                    SolidColorBrush scb = selected.Background as SolidColorBrush;
 
-                SolidColorBrush scb = selected.Background as SolidColorBrush;
+                    selected.Background = new SolidColorBrush(clpZona.Color);
 
-                //Rectificar lo de aqui abajo pa k no se añada a si mismo siempre
-                zones[scb.Color].Cadires.Add(new Cadira(zones[scb.Color].Nom, zones[scb.Color].Cadires.Count, x, y));
+                    //Rectificar lo de aqui abajo pa k no se añada a si mismo siempre
+                    //zones[scb.Color].Cadires.Add(new Cadira(zones[scb.Color].Nom, zones[scb.Color].Cadires.Count, x, y));
+                }
+                else
+                {
+                    selected.Background = cellBrush;
+                }
             }
         }
 
         private void cboFilaColSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (cboFila.SelectedIndex <= 0 && cboCol.SelectedIndex <= 0)
+            int files = cboFila.SelectedIndex;
+            int columnes = cboCol.SelectedIndex;
+            Debug.WriteLine(files + ":" + columnes);
+            if (files > 0 && columnes > 0)
             {
-                int files = cboFila.SelectedIndex;
-                int columnes = cboCol.SelectedIndex;
-                grdZonesSala.Children.Clear();
                 gridInit(files, columnes);
             }
+        }
+
+        private void CloseFlyout_Click(object sender, RoutedEventArgs e)
+        {
+            if (btnColorSelector.Flyout is Flyout flyout)
+            {
+                Color color = clpZona.Color;
+                double luminance = 0.299 * color.R + 0.587 * color.G + 0.114 * color.B;
+                btnColorSelector.Foreground = new SolidColorBrush(luminance > 128 ? Colors.Black : Colors.White);
+                btnColorSelector.Background = new SolidColorBrush(color);
+                flyout.Hide();
+            }
+        }
+
+        private void btnPaint_Click(object sender, RoutedEventArgs e)
+        {
+            painting = true;
+        }
+
+        private void btnRemove_Click(object sender, RoutedEventArgs e)
+        {
+            painting = false;
         }
     }
 }

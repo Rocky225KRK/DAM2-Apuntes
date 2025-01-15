@@ -10389,13 +10389,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\DataGrid.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\DataGrid\\DataGrid.csproj",
       "projectName": "DataGrid",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\DataGrid.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\DataGrid\\DataGrid.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\source\\repos\\DataGrid\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programació Desenvolupament d'interfícies\\UF2\\DataGrid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"

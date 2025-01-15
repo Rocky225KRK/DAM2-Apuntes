@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\source\\repos\\gestorentrades\\view\\pageevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\pageevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\gestorentrades\\view\\pageediciosales.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\pageediciosales.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\source\\repos\\gestorentrades\\view\\pageedicioevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\pageedicioevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\gestorentrades\\view\\pagesales.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\pagesales.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\source\\repos\\gestorentrades\\view\\datetostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\datetostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\gestorentrades\\view\\pageediciosales.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\pageediciosales.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\gestorentrades\\view\\pagesales.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\pagesales.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\gestorentrades\\view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\gestorentrades\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26D6F739-F323-4DDE-AE54-3271E21E6E7E}|GestorEntrades.csproj|solutionrelative:view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,39 +82,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PageEvents.xaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\PageEvents.xaml",
-              "RelativeDocumentMoniker": "View\\PageEvents.xaml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\PageEvents.xaml",
-              "RelativeToolTip": "View\\PageEvents.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T17:34:19.369Z",
+              "DocumentIndex": 3,
+              "Title": "PageSales.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\PageSales.xaml.cs",
+              "RelativeDocumentMoniker": "View\\PageSales.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\PageSales.xaml.cs",
+              "RelativeToolTip": "View\\PageSales.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAlwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T14:44:58.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PageEdicioEvents.xaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\PageEdicioEvents.xaml",
-              "RelativeDocumentMoniker": "View\\PageEdicioEvents.xaml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\PageEdicioEvents.xaml",
-              "RelativeToolTip": "View\\PageEdicioEvents.xaml",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\MainPage.xaml.cs",
+              "RelativeToolTip": "View\\MainPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T14:44:43.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\MainPage.xaml",
+              "RelativeDocumentMoniker": "View\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\MainPage.xaml",
+              "RelativeToolTip": "View\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T17:34:12.522Z",
+              "WhenOpened": "2025-01-15T14:44:38.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageEdicioSales.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\PageEdicioSales.xaml",
+              "RelativeDocumentMoniker": "View\\PageEdicioSales.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\PageEdicioSales.xaml",
+              "RelativeToolTip": "View\\PageEdicioSales.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-15T14:16:55.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DateToStringConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\DateToStringConverter.cs",
-              "RelativeDocumentMoniker": "View\\DateToStringConverter.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\GestorEntrades\\View\\DateToStringConverter.cs",
-              "RelativeToolTip": "View\\DateToStringConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Title": "PageEdicioSales.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\PageEdicioSales.xaml.cs",
+              "RelativeDocumentMoniker": "View\\PageEdicioSales.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\PageEdicioSales.xaml.cs",
+              "RelativeToolTip": "View\\PageEdicioSales.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwEoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T17:31:47.845Z",
+              "WhenOpened": "2025-01-15T14:14:22.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageSales.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\PageSales.xaml",
+              "RelativeDocumentMoniker": "View\\PageSales.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\GestorEntrades\\View\\PageSales.xaml",
+              "RelativeToolTip": "View\\PageSales.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-15T14:44:58.714Z",
               "EditorCaption": ""
             }
           ]

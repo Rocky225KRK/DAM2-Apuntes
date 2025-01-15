@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|c:\\users\\usuario\\source\\repos\\navegaci\u00F3\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf2\\navegaci\u00F3\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3FD00DAE-330A-459D-B874-23A059CE2220}|Navegaci\u00F3.csproj|solutionrelative:page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,24 +82,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\Persona.cs",
               "RelativeDocumentMoniker": "Persona.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\Persona.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\Persona.cs",
               "RelativeToolTip": "Persona.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:01:21.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T18:01:21.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Page2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\Page2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\Page2.xaml.cs",
               "RelativeDocumentMoniker": "Page2.xaml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\Page2.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\Page2.xaml.cs",
               "RelativeToolTip": "Page2.xaml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAqwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -108,36 +107,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Page2.xaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\Page2.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\Page2.xaml",
               "RelativeDocumentMoniker": "Page2.xaml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\Page2.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\Page2.xaml",
               "RelativeToolTip": "Page2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T17:41:57.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:41:57.21Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwCEAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T17:41:04.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T17:40:47.989Z",
@@ -147,9 +145,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Page3.xaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\Page3.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\Page3.xaml",
               "RelativeDocumentMoniker": "Page3.xaml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Navegaci\u00F3\\Page3.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF2\\Navegaci\u00F3\\Page3.xaml",
               "RelativeToolTip": "Page3.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T18:26:40.918Z"
