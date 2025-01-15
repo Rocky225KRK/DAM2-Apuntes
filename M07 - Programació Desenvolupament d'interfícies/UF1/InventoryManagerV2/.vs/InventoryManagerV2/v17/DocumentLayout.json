@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57013D2D-E6C1-4CE4-8D96-1699E942AAC7}|InventoryManagerV2.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf1\\inventorymanagerv2\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57013D2D-E6C1-4CE4-8D96-1699E942AAC7}|InventoryManagerV2.csproj|solutionrelative:model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57013D2D-E6C1-4CE4-8D96-1699E942AAC7}|InventoryManagerV2.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57013D2D-E6C1-4CE4-8D96-1699E942AAC7}|InventoryManagerV2.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57013D2D-E6C1-4CE4-8D96-1699E942AAC7}|InventoryManagerV2.csproj|C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{57013D2D-E6C1-4CE4-8D96-1699E942AAC7}|InventoryManagerV2.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57013D2D-E6C1-4CE4-8D96-1699E942AAC7}|InventoryManagerV2.csproj|c:\\users\\usuario\\desktop\\clase\\projectes dam2\\m07 - programaci\u00F3 desenvolupament d\u0027interf\u00EDcies\\uf1\\inventorymanagerv2\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57013D2D-E6C1-4CE4-8D96-1699E942AAC7}|InventoryManagerV2.csproj|solutionrelative:model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,39 +70,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\Model\\Item.cs",
               "RelativeDocumentMoniker": "Model\\Item.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\Model\\Item.cs",
               "RelativeToolTip": "Model\\Item.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T11:03:34.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-18T18:35:20.558Z"
+              "WhenOpened": "2024-11-18T18:35:20.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Clase\\Projectes DAM2\\M07 - Programaci\u00F3 Desenvolupament d\u0027interf\u00EDcies\\UF1\\InventoryManagerV2\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAuwMAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAKQBAAAAAAAAAAAAAK4BAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T19:18:36.387Z"
+              "WhenOpened": "2024-11-05T19:18:36.387Z",
+              "EditorCaption": ""
             }
           ]
         }

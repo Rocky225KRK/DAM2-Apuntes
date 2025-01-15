@@ -30,17 +30,16 @@ namespace GestorEntrades
         private const int COLUMNES = 30;
         private const int CELL_SIZE = 18;
 
-        private SolidColorBrush cellBrush;
+        private SolidColorBrush CELLBRUSH = new SolidColorBrush(Colors.LightGray);
 
         private bool painting=true;
 
-        private Dictionary<Color, Zona> zones = new Dictionary<Color, Zona>();
+        private Dictionary<SolidColorBrush, Zona> zones = new Dictionary<SolidColorBrush, Zona>();
 
         public PageEdicioSales()
         {
             this.InitializeComponent();
-            zones = new Dictionary<Color, Zona>();
-            zones.Add(Colors.Gray, new Zona(0, "Stage", "Where all starts", new List<Cadira>()));
+            zones.Add(new SolidColorBrush(Colors.Gray), new Zona(0, "Stage", "Where the fun begins", new List<Cadira>()));
             lsvZones.ItemsSource = zones;
         }
 
@@ -52,53 +51,33 @@ namespace GestorEntrades
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            gridInit(FILES, COLUMNES);
-            StackPanel stp = grdZonesSala.Children[0] as StackPanel;
-            cellBrush = stp.Background as SolidColorBrush;
-            loadCbo();
+            gridInit();
         }
 
-        private void loadCbo()
-        {
-            List<String> fila = new List<String>();
-            List<String> col = new List<String>();
-            fila.Add("Files");
-            col.Add("Columnes");
-            for (int i = 1; i <= 30; i++)
-            {
-                fila.Add(i + "");
-                col.Add(i + "");
-            }
-            cboFila.ItemsSource = fila;
-            cboCol.ItemsSource = col;
-            cboFila.SelectedIndex = 0;
-            cboCol.SelectedIndex = 0;
-        }
-
-        private void gridInit(int files,int columnes)
+        private void gridInit()
         {
             grdZonesSala.Children.Clear();
             grdZonesSala.RowDefinitions.Clear();
             grdZonesSala.ColumnDefinitions.Clear();
-            for (int i = 0; i < files; i++)
+            for (int i = 0; i < FILES; i++)
             {
                 RowDefinition rowDef = new RowDefinition();
                 rowDef.Height = new GridLength(CELL_SIZE);
                 grdZonesSala.RowDefinitions.Add(rowDef);
             }
-            for (int i = 0; i < columnes; i++)
+            for (int i = 0; i < COLUMNES; i++)
             {
                 ColumnDefinition colDef = new ColumnDefinition();
                 colDef.Width = new GridLength(CELL_SIZE);
                 grdZonesSala.ColumnDefinitions.Add(colDef);
             }
 
-            for(int i = 0;i < files; i++)
+            for(int i = 0;i < FILES; i++)
             {
-                for(int j = 0; j < columnes; j++)
+                for(int j = 0; j < COLUMNES; j++)
                 {
                     StackPanel sp = new StackPanel();
-                    sp.Background = new SolidColorBrush(Colors.Gray);
+                    sp.Background = CELLBRUSH;
                     sp.Tapped += Sp_Tapped;
                     Grid.SetRow(sp, i);
                     Grid.SetColumn(sp, j);
@@ -113,31 +92,29 @@ namespace GestorEntrades
             {
                 int x = Grid.GetRow(selected);
                 int y = Grid.GetColumn(selected);
-                Debug.WriteLine("Coords: " + x + ":" + y);
                 if (painting)
                 {
-                    SolidColorBrush scb = selected.Background as SolidColorBrush;
+                    if(lsvZones.SelectedItem is KeyValuePair<SolidColorBrush,Zona> item)
+                    {
+                        SolidColorBrush scb = selected.Background as SolidColorBrush;
 
-                    selected.Background = new SolidColorBrush(clpZona.Color);
+                        if(scb.Color.Equals(CELLBRUSH.Color))
+                        {
+                            selected.Background = item.Key;
 
-                    //Rectificar lo de aqui abajo pa k no se añada a si mismo siempre
-                    //zones[scb.Color].Cadires.Add(new Cadira(zones[scb.Color].Nom, zones[scb.Color].Cadires.Count, x, y));
+                            Cadira cadira = new Cadira("", item.Value.Cadires.Count + 1, x, y);
+                            zones[item.Key].Cadires.Add(cadira);
+                        }
+                    }
                 }
                 else
                 {
-                    selected.Background = cellBrush;
+                    selected.Background = CELLBRUSH;
+                    foreach(Zona zona in zones.Values)
+                    {
+                        zona.Cadires.Remove(zona.Cadires.Find(cadira => cadira.X == x && cadira.Y == y));
+                    }
                 }
-            }
-        }
-
-        private void cboFilaColSelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            int files = cboFila.SelectedIndex;
-            int columnes = cboCol.SelectedIndex;
-            Debug.WriteLine(files + ":" + columnes);
-            if (files > 0 && columnes > 0)
-            {
-                gridInit(files, columnes);
             }
         }
 
@@ -145,10 +122,6 @@ namespace GestorEntrades
         {
             if (btnColorSelector.Flyout is Flyout flyout)
             {
-                Color color = clpZona.Color;
-                double luminance = 0.299 * color.R + 0.587 * color.G + 0.114 * color.B;
-                btnColorSelector.Foreground = new SolidColorBrush(luminance > 128 ? Colors.Black : Colors.White);
-                btnColorSelector.Background = new SolidColorBrush(color);
                 flyout.Hide();
             }
         }
@@ -161,6 +134,49 @@ namespace GestorEntrades
         private void btnRemove_Click(object sender, RoutedEventArgs e)
         {
             painting = false;
+        }
+
+        private void clpZona_ColorChanged(ColorPicker sender, ColorChangedEventArgs args)
+        {
+            Color color = clpZona.Color;
+            double luminance = 0.299 * color.R + 0.587 * color.G + 0.114 * color.B;
+            btnColorSelector.Foreground = new SolidColorBrush(luminance > 128 ? Colors.Black : Colors.White);
+            btnColorSelector.Background = new SolidColorBrush(color);
+        }
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            if(txbZona.Text is String str && str.Length!=0 && clpZona.Color is Color color)
+            {
+                Zona zona = new Zona(zones.Count(), str, "", new List<Cadira>());
+                zones.Add(new SolidColorBrush(color), zona);
+                lsvZones.ItemsSource = null;
+                lsvZones.ItemsSource = zones;
+            }
+        }
+
+        private void btnDel_Click(object sender, RoutedEventArgs e)
+        {
+            if(lsvZones.SelectedItem is KeyValuePair<SolidColorBrush, Zona> selected && selected.Value.Numero!=0)
+            {
+                foreach(Cadira cadira in selected.Value.Cadires)
+                {
+                    int x = cadira.X;
+                    int y = cadira.Y;
+
+                    int index = y + FILES * x;
+                    Debug.WriteLine("Index: " + index+","+x+":"+y);
+                    StackPanel sp = new StackPanel();
+                    sp.Background = CELLBRUSH;
+                    sp.Tapped += Sp_Tapped;
+                    Grid.SetRow(sp, x);
+                    Grid.SetColumn(sp, y);
+                    grdZonesSala.Children[index] = sp;
+                }
+                zones.Remove(selected.Key);
+                lsvZones.ItemsSource = null;
+                lsvZones.ItemsSource = zones;
+            }
         }
     }
 }
