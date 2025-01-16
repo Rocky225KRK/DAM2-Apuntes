@@ -1,6 +1,7 @@
 # Apuntes de DAM2
-Este repositorio contiene los proyectos hechos por mi persona de M07 y M08.</br>
-> Muy (muy muy muy muy muy muy muy muy muy) probablemente no voy a hacer de ninguna asignatura más.</br>
+Este repositorio contiene los proyectos hechos por mi persona de M07, M08 y M13.</br>
+> Muy (muy muy muy muy muy muy muy muy) probablemente no voy a hacer de ninguna asignatura más.
+
 </br>
 <p>En el caso de que falte algo, no lo tengo hecho.
 </br>
@@ -55,6 +56,16 @@ Contenido:
   - FlipAnimation
   - PaintOnView
   - Sprites
+</br>
+</br>
+</br>
+
+## M13 - Projecte
+
+Contenido:
+- P2:
+  - MongoDB
+  
 </br>
 </br>
 </br>
