@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-15T18:05:50.272</Modified>
+      <Modified>2025-01-16T13:49:17.462</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\GestorEntrades.exe">
       <PackagePath>entrypoint\GestorEntrades.exe</PackagePath>
-      <Modified>2025-01-15T18:05:49.495</Modified>
+      <Modified>2025-01-16T13:49:16.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
@@ -102,27 +102,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2025-01-15T18:05:49.345</Modified>
+      <Modified>2025-01-16T13:49:16.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2025-01-15T18:05:49.345</Modified>
+      <Modified>2025-01-16T13:49:16.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\PageEdicioEvents.xbf">
       <PackagePath>View\PageEdicioEvents.xbf</PackagePath>
-      <Modified>2025-01-15T18:05:49.345</Modified>
+      <Modified>2025-01-16T13:49:16.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\PageEdicioSales.xbf">
       <PackagePath>View\PageEdicioSales.xbf</PackagePath>
-      <Modified>2025-01-15T18:05:49.337</Modified>
+      <Modified>2025-01-16T13:49:16.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\PageEvents.xbf">
       <PackagePath>View\PageEvents.xbf</PackagePath>
-      <Modified>2025-01-15T18:05:49.345</Modified>
+      <Modified>2025-01-16T13:49:16.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\View\PageSales.xbf">
       <PackagePath>View\PageSales.xbf</PackagePath>
-      <Modified>2025-01-15T18:05:49.345</Modified>
+      <Modified>2025-01-16T13:49:16.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -134,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\GestorEntrades\bin\x86\Debug\Core\GestorEntrades.exe">
       <PackagePath>GestorEntrades.exe</PackagePath>
-      <Modified>2025-01-15T18:05:50.268</Modified>
+      <Modified>2025-01-16T13:49:17.459</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

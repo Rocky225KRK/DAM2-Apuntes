@@ -157,23 +157,26 @@ namespace GestorEntrades
 
         private void btnDel_Click(object sender, RoutedEventArgs e)
         {
-            if(lsvZones.SelectedItem is KeyValuePair<SolidColorBrush, Zona> selected && selected.Value.Numero!=0)
+            if (lsvZones.SelectedItem is KeyValuePair<SolidColorBrush, Zona> selected && selected.Value.Numero != 0)
             {
-                foreach(Cadira cadira in selected.Value.Cadires)
-                {
-                    int x = cadira.X;
-                    int y = cadira.Y;
+                SolidColorBrush zonaColor = selected.Key;
 
-                    int index = y + FILES * x;
-                    Debug.WriteLine("Index: " + index+","+x+":"+y);
-                    StackPanel sp = new StackPanel();
-                    sp.Background = CELLBRUSH;
-                    sp.Tapped += Sp_Tapped;
-                    Grid.SetRow(sp, x);
-                    Grid.SetColumn(sp, y);
-                    grdZonesSala.Children[index] = sp;
+                foreach (var child in grdZonesSala.Children)
+                {
+                    if (child is StackPanel sp && sp.Background is SolidColorBrush cellBrush)
+                    {
+                        if (cellBrush.Color == zonaColor.Color)
+                        {
+                            sp.Background = CELLBRUSH;
+                            int x = Grid.GetRow(sp);
+                            int y = Grid.GetColumn(sp);
+
+                            selected.Value.Cadires.RemoveAll(cadira => cadira.X == x && cadira.Y == y);
+                        }
+                    }
                 }
-                zones.Remove(selected.Key);
+
+                zones.Remove(zonaColor);
                 lsvZones.ItemsSource = null;
                 lsvZones.ItemsSource = zones;
             }
