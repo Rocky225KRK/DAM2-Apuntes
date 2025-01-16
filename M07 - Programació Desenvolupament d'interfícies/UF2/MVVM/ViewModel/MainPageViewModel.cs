@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 
 namespace MVVM.ViewModel
 {
-    internal class MainPageViewModel : BaseViewModel
+    internal class MainPageViewModel : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
         public PersonaViewModel PersonaSeleccionada { get; set; }
 
         private ObservableCollection<PersonaViewModel> persones;
@@ -28,6 +29,12 @@ namespace MVVM.ViewModel
                     p => new PersonaViewModel(p)
                 ).ToList()
             );
+        }
+
+        public void NewPerson()
+        {
+            PersonaSeleccionada = new PersonaViewModel();
+            PersonaSeleccionada.PersonaOriginal = new PersonaViewModel();
         }
     }
 }

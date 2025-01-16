@@ -7,6 +7,8 @@
     <RootPropertyPathName Name="PersonaSeleccionada" />
     <RootPropertyPathName Name="Persones" />
     <RootPropertyPathName Name="PersonaEnEdicio" />
+    <RootPropertyPathName Name="FormVisibility" />
+    <RootPropertyPathName Name="CancelVisibility" />
     <RootPropertyPathName Name="EsValida" />
     <RootPropertyPathName Name="Sexe" />
     <RootPropertyPathName Name="EdatError" />
@@ -15,6 +17,7 @@
     <RootPropertyPathName Name="ImageURL" />
     <RootPropertyPathName Name="IsActiu" />
     <RootPropertyPathName Name="ListSexe" />
+    <RootPropertyPathName Name="NomBackground" />
     <RootPropertyPathName Name="Nom" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -25,15 +28,21 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnSpacing" />
       <RootProperty Name="RowSpacing" />
-      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Visibility" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
@@ -45,10 +54,20 @@
     <RootType FullName="MVVM.View.UCEditPersona">
       <RootProperty Name="MyPersona" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Visibility" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
       <RootProperty Name="ElementName" />
       <RootProperty Name="Path" />
+      <RootProperty Name="FallbackValue" />
       <RootProperty Name="Converter" />
       <RootProperty Name="ConverterParameter" />
       <RootProperty Name="UpdateSourceTrigger" />
@@ -59,9 +78,6 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="MVVM.View.transformers.Sexe2RadioTransform" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Text" />
@@ -69,8 +85,8 @@
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="BorderBrush" />
       <RootProperty Name="Text" />
-      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="SelectedItem" />
@@ -85,11 +101,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
       <RootProperty Name="Children" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootProperty Name="IsEnabled" />
-      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="IsChecked" />

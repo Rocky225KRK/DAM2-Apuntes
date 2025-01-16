@@ -15,7 +15,6 @@
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
         <Grid Padding="10">
-            <!--<Button x:Name="btnReturn" Click="btnReturn_Click"/>-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="2*"/>
@@ -25,6 +24,8 @@
                 <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
+            
+            <!--<Button x:Name="btnReturn" Click="btnReturn_Click"/>-->
 
             <TextBlock Text="Edició de Sales" Grid.Row="0" FontSize="60"/>
 

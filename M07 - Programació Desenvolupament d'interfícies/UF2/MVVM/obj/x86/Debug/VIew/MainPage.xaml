@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="MVVM.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -9,6 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -19,7 +23,9 @@
             Grid.Column="0">
         </controls:DataGrid>
 
-        <view:UCEditPersona Grid.Column="1" MyPersona="{Binding PersonaSeleccionada}"/>
+        <view:UCEditPersona Grid.Column="1" Grid.RowSpan="2" MyPersona="{Binding PersonaSeleccionada}"/>
+
+        <Button x:ConnectionId='2' Grid.Row="1"                                      HorizontalAlignment="Center" Margin="10" Content="New"/>
     </Grid>
 </Page>
 

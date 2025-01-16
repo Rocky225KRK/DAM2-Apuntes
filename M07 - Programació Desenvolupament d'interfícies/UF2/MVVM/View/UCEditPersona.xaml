@@ -14,7 +14,7 @@
         <transformers:Sexe2RadioTransform x:Key="sexe2RadioTransform"/>
     </UserControl.Resources>
 
-    <Grid ColumnSpacing="10" RowSpacing="10">
+    <Grid ColumnSpacing="10" RowSpacing="10" Visibility="{Binding ElementName=root, Path=PersonaEnEdicio.FormVisibility, FallbackValue=Collapsed}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="2*"/>
@@ -31,7 +31,7 @@
         </Grid.RowDefinitions>
         
         <TextBlock HorizontalAlignment="Right" Text="Nom:" Grid.Column="0" Grid.Row="0"/>
-        <TextBox Grid.Column="1" Grid.Row="0"
+        <TextBox Grid.Column="1" Grid.Row="0" BorderBrush="{Binding ElementName=root,Path=PersonaEnEdicio.NomBackground}"
                  Text="{Binding ElementName=root,Path=PersonaEnEdicio.Nom,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
 
         <TextBlock HorizontalAlignment="Right" Text="Sexe:" Grid.Column="0" Grid.Row="1"/>
@@ -48,7 +48,7 @@
                Source="{Binding ElementName=root,Path=PersonaEnEdicio.ImageURL}"/>
 
         <TextBlock HorizontalAlignment="Right" Text="Edat:" Grid.Column="0" Grid.Row="4"/>
-        <TextBox Grid.Column="1" Grid.Row="4" Background="{Binding ElementName=root,Path=PersonaEnEdicio.EdatBackground}"
+        <TextBox Grid.Column="1" Grid.Row="4" BorderBrush="{Binding ElementName=root,Path=PersonaEnEdicio.EdatBackground}"
                  Text="{Binding ElementName=root,Path=PersonaEnEdicio.Edat,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
         <TextBlock Grid.Column="2" Grid.Row="4" Text="{Binding ElementName=root,Path=PersonaEnEdicio.EdatError}" Foreground="Red" VerticalAlignment="Center"/>
 
@@ -59,6 +59,7 @@
             <RadioButton IsChecked="{Binding ElementName=root,Path=PersonaEnEdicio.Sexe,Converter={StaticResource sexe2RadioTransform},ConverterParameter=2,Mode=TwoWay}">No definit</RadioButton>
         </StackPanel>
 
-        <Button Grid.Row="6" Grid.Column="1" Content="Save" Click="Button_Click" IsEnabled="{Binding ElementName=root,Path=PersonaEnEdicio.EsValida}"/>
+        <Button Grid.Row="6" Grid.Column="1" Content="Save" Click="{x:Bind PersonaEnEdicio.Save}" IsEnabled="{Binding ElementName=root,Path=PersonaEnEdicio.EsValida}"/>
+        <Button Grid.Row="6" Grid.Column="1" HorizontalAlignment="Right" Content="Cancel" Click="{x:Bind PersonaEnEdicio.Cancel}" Visibility="{Binding ElementName=root, Path=PersonaEnEdicio.CancelVisibility, FallbackValue=Collapsed}" IsEnabled="{Binding ElementName=root,Path=PersonaEnEdicio.EsValida}"/>
     </Grid>
 </UserControl>

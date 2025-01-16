@@ -9,6 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -19,6 +23,8 @@
             Grid.Column="0">
         </controls:DataGrid>
 
-        <view:UCEditPersona Grid.Column="1" MyPersona="{Binding PersonaSeleccionada}"/>
+        <view:UCEditPersona Grid.Column="1" Grid.RowSpan="2" MyPersona="{Binding PersonaSeleccionada}"/>
+
+        <Button Grid.Row="1" Click="{x:Bind viewModel.NewPerson}" HorizontalAlignment="Center" Margin="10" Content="New"/>
     </Grid>
 </Page>

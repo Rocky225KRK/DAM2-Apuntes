@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-15T20:25:41.500</Modified>
+      <Modified>2025-01-16T18:31:20.720</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\MVVM.exe">
       <PackagePath>entrypoint\MVVM.exe</PackagePath>
-      <Modified>2025-01-15T20:25:40.860</Modified>
+      <Modified>2025-01-16T18:31:19.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\5.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
@@ -98,19 +98,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\MVVM.xr.xml">
       <PackagePath>MVVM.xr.xml</PackagePath>
-      <Modified>2025-01-15T20:24:53.794</Modified>
+      <Modified>2025-01-16T18:21:40.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2025-01-15T20:25:40.699</Modified>
+      <Modified>2025-01-16T18:31:19.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2025-01-15T20:25:40.700</Modified>
+      <Modified>2025-01-16T18:31:19.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\View\UCEditPersona.xbf">
       <PackagePath>View\UCEditPersona.xbf</PackagePath>
-      <Modified>2025-01-15T20:25:40.700</Modified>
+      <Modified>2025-01-16T18:31:19.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -118,11 +118,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-15T19:32:19.952</Modified>
+      <Modified>2025-01-16T16:43:31.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Clase\Projectes DAM2\M07 - Programació Desenvolupament d%27interfícies\UF2\MVVM\bin\x86\Debug\Core\MVVM.exe">
       <PackagePath>MVVM.exe</PackagePath>
-      <Modified>2025-01-15T20:25:41.496</Modified>
+      <Modified>2025-01-16T18:31:20.715</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

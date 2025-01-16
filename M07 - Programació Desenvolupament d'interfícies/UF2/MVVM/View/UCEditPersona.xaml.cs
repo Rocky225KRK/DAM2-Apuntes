@@ -49,18 +49,12 @@ namespace MVVM.View
 
         private void OnPersonaChangedCallback(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
+            if (MyPersona == null) PersonaEnEdicio = null;
+            else
             if(PersonaEnEdicio== null||MyPersona.Id!=PersonaEnEdicio.Id)
             {
                 PersonaEnEdicio=new PersonaViewModel(MyPersona);
             }
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MyPersona.Nom = PersonaEnEdicio.Nom;
-            MyPersona.Edat = PersonaEnEdicio.Edat;
-            MyPersona.IsActiu = PersonaEnEdicio.IsActiu;
-            MyPersona.Sexe = PersonaEnEdicio.Sexe;
         }
     }
 }
