@@ -354,3 +354,122 @@ Ejemplo:
 ```js
 db.podcasts.deleteMany({category: “crime”})
 ```
+</br>
+
+## Modificar resultardos de Query
+### Ordenar y limitar resultados de Query
+#### `sort()`:
+Usa para ordenar los resultados de una consulta. Requiere un objeto que especifica el campo por donde ordenar y si es ascendiente (`1`) o descendiente (`-1`)
+
+Sintáxis:
+```js
+db.collection.find(<query>).sort(<sort>)
+```
+
+Ejemplo:
+```js
+// Devuelve información de todas las compañias de musica ordenadas alfabéticamente de la A a la Z
+db.companies.find({ category_code: "music" }).sort({ name: 1 });
+```
+
+Para que los documentos sean devueltos en un orden consistente, incluye un campo con un valor único, como `_id`.
+
+Ejemplo:
+```js
+// Devuelve información de todas las compañias de musica ordenadas alfabéticamente de la A a la Z
+// Asegura orden constante
+db.companies.find({ category_code: "music" }).sort({ name: 1, _id: 1 });
+```
+
+#### `limit()`:
+Usa para especificar el máximo de documentos que se devuelven. Requiere un número máximo de documentos.
+
+Sintáxis:
+```js
+db.companies.find(<query>).limit(<number>)
+```
+
+Ejemplo:
+```js
+// Devuelve información de 3 las compañias de musica ordenadas alfabéticamente de la Z a la A (descendiente)
+// Asegura orden constante
+db.companies
+  .find({ category_code: "music" })
+  .sort({ number_of_employees: -1, _id: 1 })
+  .limit(3);
+```
+</br>
+
+### Devolver información específica
+Puedes usar un documento de "proyección" como segundo parámetro en el `find()` para incluir o excluir campos.
+
+Sintáxis:
+```js
+db.collection.find( <query>, <projection> )
+```
+
+#### Incluir un campo:
+Para incluir un campo, pon su valor a 1 en el documento de proyección.
+
+Sintáxis:
+```js
+db.collection.find( <query>, { <field> : 1 })
+```
+
+Ejemplo:
+```js
+// Devuelve todas las inspecciones de un restaurante - Solo devuelve el NOMBRE DE NEGOCIO, el RESULTADO y el _ID
+db.inspections.find(
+  { sector: "Restaurant - 818" },
+  { business_name: 1, result: 1 }
+)
+```
+
+#### Excluir un campo
+Para excluir un campo, pon su valor a 0 en el documento de proyección.
+
+Sintáxis:
+```js
+db.collection.find(query, { <field> : 0, <field>: 0 })
+```
+
+Ejemplo:
+```js
+// Devuelve todas las inspecciones con un resultado de "Pass" o "Warning" - Excluyendo las dadas DATE y ADDRESS.ZIP
+db.inspections.find(
+  { result: { $in: ["Pass", "Warning"] } },
+  { date: 0, "address.zip": 0 }
+)
+```
+
+Aunque `_id` está incluido de forma predeterminada, se puede excluir.
+
+Ejemplo:
+```js
+// Devuelve todas las inspecciones de un restaurante - Solo devuelve el NOMBRE DE NEGOCIO y el RESULTADO.
+// El _ID no sale
+db.inspections.find(
+  { sector: "Restaurant - 818" },
+  { business_name: 1, result: 1, _id: 0 }
+)
+```
+</br>
+
+### Contar documentos
+Usa `countDocuments()` para contar los documentos que concuerdan con una Query. Requiere de un documento de query y de un documento de opciones.
+
+Sintáxis:
+```js
+db.collection.countDocuments( <query>, <options> )
+```
+
+Ejemplo:
+```js
+// Cuenta los documentos de esa colección
+db.trips.countDocuments({})
+```
+
+```js
+// Cuenta los documentos de esa colección con duración mayor a 120 por "Subscriber"
+db.trips.countDocuments({ tripduration: { $gt: 120 }, usertype: "Subscriber" })
+```
