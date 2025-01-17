@@ -25,7 +25,7 @@ public class Pissarra extends View {
 
     public Pissarra(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        ghost =BitmapFactory.decodeResource(this.getResources(),R.drawable.red);
+        ghost =BitmapFactory.decodeResource(this.getResources(), R.drawable.red);
     }
 
     @Override
