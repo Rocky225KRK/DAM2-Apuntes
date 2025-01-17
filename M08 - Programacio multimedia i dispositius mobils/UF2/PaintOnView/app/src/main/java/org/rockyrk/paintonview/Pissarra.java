@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -31,6 +32,10 @@ public class Pissarra extends View {
         paint.setColor(Color.parseColor("#663399"));
         paint.setStrokeWidth(6);
 
+        Path p=new Path();
+        paint.setStyle(Paint.Style.STROKE);
+        paint.setStrokeWidth(5);
+
         float r=200;
         float xCentre=300,yCentre=300;
         float xA=-1,yA=-1;
@@ -41,7 +46,10 @@ public class Pissarra extends View {
             float y=(float) (r*Math.sin(Math.toRadians(angle)))+yCentre;
 
             if(xA!=-1){
-                canvas.drawLine(xA,yA,x,y,paint);
+                //canvas.drawLine(xA,yA,x,y,paint);
+                p.lineTo(x,y);
+            }else{
+                p.moveTo(x,y);
             }
 
             // Espiral
@@ -52,5 +60,6 @@ public class Pissarra extends View {
             xA=x;
             yA=y;
         }
+        canvas.drawPath(p,paint);
     }
 }
