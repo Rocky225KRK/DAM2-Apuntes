@@ -473,3 +473,167 @@ db.trips.countDocuments({})
 // Cuenta los documentos de esa colección con duración mayor a 120 por "Subscriber"
 db.trips.countDocuments({ tripduration: { $gt: 120 }, usertype: "Subscriber" })
 ```
+</br>
+
+## Secuencias de agregación
+ - **Agregación (aggregation)**: recopilación y resumen de datos.
+ - **Etapa (stage)**: uno de los métodos integrados que se puede completar en los datos, pero que no los altera de forma permanente.
+ - **Secuencia de agregación (aggregation pipeline)**: una serie de etapas completadas en los datos en orden.
+
+Sintáxis:
+```js
+db.collection.aggregate([
+    {
+        $stage1: {
+            { expression1 },
+            { expression2 }...
+        },
+        $stage2: {
+            { expression1 }...
+        }
+    }
+])
+```
+</br>
+
+### Etapas en una secuencia de agregación
+#### `$match`:
+Filtra documentos que coinciden en condiciones específicas.
+
+Sintáxis:
+```js
+{
+  $match: {
+     "field_name": "value"
+  }
+}
+```
+
+#### `$group`:
+Agrupa documentos en una clave de grupo.
+
+Sintáxis:
+```js
+{
+  $group: {
+    _id: <expression>, // Group key
+    <field>: { <accumulator> : <expression> }
+  }
+}
+ ```
+
+ #### Ejemplo de `$match` y `$group`:
+```js
+db.zips.aggregate([
+{   
+   $match: { 
+      state: "CA"
+    }
+},
+{
+   $group: {
+      _id: "$city",
+      totalZips: { $count : { } }
+   }
+}
+])
+```
+
+#### `$sort`:
+Ordena los documentos de entrada y los devuelve en orden. `1` para orden ascendiente y `-1` para descendiente.
+
+Sintáxis:
+```js
+{
+    $sort: {
+        "field_name": 1
+    }
+}
+```
+
+#### `$limit`:
+Devuelve solo un número específico de documentos.
+
+Sintáxis:
+```js
+{
+  $limit: 5
+}
+```
+
+#### Ejemplo de `$sort` y `$group`:
+```js
+db.zips.aggregate([
+{
+  $sort: {
+    pop: -1
+  }
+},
+{
+  $limit:  5
+}
+])
+```
+
+#### `$project`:
+Especifica los campos del documento que devuelve. `1` significa que está incluido, `0` significa que se excluye. Se le puede dar un un valor al campo.
+
+Ejemplo:
+```js
+{
+    $project: {
+        state:1, 
+        zip:1,
+        population:"$pop",
+        _id:0
+    }
+}
+```
+
+#### `$set`:
+Crea nuevos campos o cambia el valor de los existentes, y devuelve el documento modificado.
+
+Ejemplo:
+```js
+{
+  $set: {
+    place: {
+      $concat:["$city",",","$state"]
+    },
+    pop:10000
+  }
+}
+```
+
+#### `$count`:
+Crea un nuevo documento, con la cantidad de documentos en esa etapa en el proceso de agregación asignado al nombre de campo especificado.
+
+Ejemplo:
+```js
+{
+  $count: "total_zips"
+}
+```
+
+#### `$out`:
+Crea un nuevo documento que contiene los documentos de esta etapa en la secuencia. En el caso de que devuelva a una coleción que ya existe, se remplaza por el existente.
+
+Ejemplo:
+```js
+db.zips.aggregate([
+  {
+    $group: {
+      _id: "$state",
+      total_pop: { $sum: "$pop" }
+    }
+  },
+  {
+    $match: {
+      total_pop:{$lt:1000000}
+    }
+  },
+  {
+    $out: "small_states"
+  }
+])
+```
